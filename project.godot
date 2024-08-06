@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Micro Builds"
-run/main_scene="res://Ski/main.tscn"
+run/main_scene="res://Physics/physics.tscn"
 config/features=PackedStringArray("4.2", "Mobile")
 config/icon="res://icon.svg"
 
@@ -36,4 +36,4 @@ turn_left={
 [rendering]
 
 renderer/rendering_method="mobile"
-environment/defaults/default_clear_color=Color(0.204946, 0.633627, 0.973444, 1)
+environment/defaults/default_clear_color=Color(0.0847875, 0.336216, 0.271686, 1)
