@@ -1,65 +1,12 @@
-[gd_scene load_steps=4 format=3 uid="uid://yxdrd8pb4tx6"]
+[gd_scene load_steps=3 format=3 uid="uid://yxdrd8pb4tx6"]
 
 [ext_resource type="Script" path="res://Balloon Popper/balloonManager.gd" id="1_b7ns4"]
 [ext_resource type="PackedScene" uid="uid://dr5ag8ynh5x8y" path="res://Balloon Popper/balloon.tscn" id="2_3eujs"]
-
-[sub_resource type="LabelSettings" id="LabelSettings_0nbsh"]
-line_spacing = 16.0
-font_size = 37
 
 [node name="Main" type="Node3D"]
 script = ExtResource("1_b7ns4")
 
 [node name="Balloon" parent="." instance=ExtResource("2_3eujs")]
-clicks_to_pop = 3
 
 [node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 6)
-
-[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform3D(0.936507, 0, 0.350649, -0.293648, 0.546526, 0.784271, -0.191639, -0.837442, 0.511825, 3.60088, 3.04086, 3.98698)
-
-[node name="Balloon2" parent="." instance=ExtResource("2_3eujs")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.15308, 0, 0.602431)
-clicks_to_pop = 6
-
-[node name="Balloon3" parent="." instance=ExtResource("2_3eujs")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.55765, 1.21121, -0.915369)
-clicks_to_pop = 4
-
-[node name="Balloon4" parent="." instance=ExtResource("2_3eujs")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.39156, -0.336397, 0.196312)
-clicks_to_pop = 4
-
-[node name="Balloon5" parent="." instance=ExtResource("2_3eujs")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.53139, 0.887799, -1.90724)
-
-[node name="Balloon6" parent="." instance=ExtResource("2_3eujs")]
-transform = Transform3D(0.7601, 0, 0.649806, -0.644838, -0.123428, 0.754288, 0.0802045, -0.992353, -0.0938178, 2.15056, 0.440355, -1.02605)
-clicks_to_pop = 6
-
-[node name="Balloon7" parent="." instance=ExtResource("2_3eujs")]
-transform = Transform3D(0.7601, 0, 0.649806, -0.644838, -0.123428, 0.754288, 0.0802045, -0.992353, -0.0938178, 0.905473, 2.28315, -1.25526)
-clicks_to_pop = 3
-
-[node name="Balloon8" parent="." instance=ExtResource("2_3eujs")]
-transform = Transform3D(0.7601, 0, 0.649806, -0.644838, -0.123428, 0.754288, 0.0802045, -0.992353, -0.0938178, 0.371777, 0.60484, -2.26706)
-clicks_to_pop = 6
-
-[node name="Balloon9" parent="." instance=ExtResource("2_3eujs")]
-transform = Transform3D(0.7601, 0, 0.649806, -0.644838, -0.123428, 0.754288, 0.0802045, -0.992353, -0.0938178, 4.09595, -0.912215, -0.518831)
-clicks_to_pop = 9
-
-[node name="Balloon10" parent="." instance=ExtResource("2_3eujs")]
-transform = Transform3D(0.7601, 0, 0.649806, -0.644838, -0.123428, 0.754288, 0.0802045, -0.992353, -0.0938178, 2.07523, -2.09533, -1.6053)
-clicks_to_pop = 2
-
-[node name="Score" type="Label" parent="."]
-offset_left = 503.0
-offset_top = 12.0
-offset_right = 652.0
-offset_bottom = 65.0
-text = "Score : 0"
-label_settings = SubResource("LabelSettings_0nbsh")
-horizontal_alignment = 1
-vertical_alignment = 1
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3.81251)

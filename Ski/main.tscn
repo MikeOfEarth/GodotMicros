@@ -44,7 +44,7 @@ background_color = Color(0.230482, 0.805968, 1, 1)
 [sub_resource type="BoxShape3D" id="BoxShape3D_3gnra"]
 size = Vector3(1, 10.2186, 1.58154)
 
-[node name="Main" type="Node3D"]
+[node name="Maino" type="Node3D"]
 script = ExtResource("1_mas0p")
 
 [node name="Ground" type="StaticBody3D" parent="."]

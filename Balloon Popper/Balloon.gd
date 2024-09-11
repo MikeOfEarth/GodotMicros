@@ -1,7 +1,7 @@
 extends Area3D
 
-@export var clicks_to_pop : int = 5
-@export var size_increase : float = 0.2
+@export var clicks_to_pop : int = randi_range(3,6)
+@export var size_increase : float = .4/(clicks_to_pop/3)
 @export var score_to_give : int = 1
 
 
